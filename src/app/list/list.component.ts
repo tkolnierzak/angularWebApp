@@ -34,6 +34,6 @@ export class ListComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.subscription.unsubsctibe();
+    this.subscription.unsubscribe();
   }
 }
